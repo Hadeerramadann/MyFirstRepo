@@ -1,0 +1,515 @@
+.clearfix {
+    clear: both;
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+body {
+    background: #fff;
+    position: relative;
+    height: 2450px;
+    margin-top: 100px
+   
+}
+nav {
+    background: #fff;
+    position: fixed;
+    width: 100%;
+    z-index: 3;
+    top: 0%;
+}
+
+nav img {
+    float: left;
+    height: 50px;
+}
+
+nav ul {
+    float: left;
+    list-style: none;
+}
+
+nav ul li {
+    float: left;
+    padding: 5px 8px;
+}
+
+nav ul li a {
+    color:#5f5f5f;
+    text-decoration: none;
+    font-family: sans-serif;
+    padding: 43px;
+}
+nav ul li a:hover {
+    color: green;
+    transition: 0.2s;
+}
+
+nav button {
+    color: #5f5f5f;
+    float: right;
+    border: 1px soli#5f5f5f;
+    background: white;
+    border-radius: 12px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+nav button:hover {
+    background: green;
+    color: #fff;
+}
+
+#banner {
+    background-image: url('../img/bg.jpg');
+    height: 500px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: relative;
+}
+
+#banner .info {
+    position: absolute;
+    bottom: 150px;
+}
+
+#banner .info h1 {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 60px;
+    font-family: sans-serif;
+    margin-bottom: 10px;
+}
+#banner .info p {
+    color: #fff;
+    font-size: 26px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    margin-top: 0;
+}
+#banner .info button {}
+
+.products {
+    text-align: center;
+}
+
+
+.products h2 {
+    margin-bottom: 50px;
+    font-family: sans-serif;
+    margin-top: 50px;
+    text-transform: uppercase;
+    color: #4b4b4b;
+}
+
+.products .item {
+    width: calc(100% / 3);
+    float: left;
+}
+.products .item .info {
+    border: 2px solid #ccc;
+    padding: 28px;
+    position: relative;
+    margin: 0 20px;
+}
+
+.products .info span {
+    position: absolute;
+    left: 0px;
+    top: 30px;
+    background: red;
+    padding: 5px;
+    font-size: 24px;
+    color: #fff;
+}
+.products .item .info h4 {
+    color: #5f5f5f;
+    text-transform: uppercase;
+}
+
+.products .item img {
+    height: 270px;
+}
+
+.brands {
+    margin-bottom: 80px;
+    margin-top: 80px;
+}
+.brands .item {
+    float: left;
+    width: 20%;
+    text-align: center;
+}
+.brands .item img {
+    width: 71%;
+    padding: 23px 10px;
+    border: 2px solid #ccc;
+}
+
+footer { 
+    display: block;
+    background: rgb(247, 249, 249 );
+    height: 600px;
+    width: 100%;
+    bottom: 0%;
+    position: absolute;
+
+  }
+  
+  .products .box1{
+    width: calc(100% /3);
+    float: left;
+}
+.products .box1 .info {
+   /* border: 2px solid rgb(127, 129, 129);*/
+    padding: 58px;
+    position: relative;
+    margin: 3px 14px;
+    float: left;
+    height: 300px;
+    width: 62%;
+    /*padding: 44px;
+    position: relative;
+    margin: 53px 49px;
+    height: 300px;
+    margin-left: 3px;
+    margin-right: 87px;*/
+}
+.products .box1 .info h3{
+    float: left;
+    color: rgb(97, 106, 107 );
+    
+}
+.products .box1 .info h5{
+    
+    color: rgb(97, 106, 107);
+    margin-left: 278px;
+    margin-top: -12px;
+    margin-bottom: -6px;
+    
+}
+.products .box1 .info pre{
+    color: rgb(149, 165, 166);
+    
+      float: left;
+      margin-left: -273px;
+      text-align: left;
+}
+.products .box1 .info h4{
+    float: left;
+    color:rgb(231, 76, 60 ) ;
+    margin-bottom: -12px;
+}
+.products .box1 .info .h4{
+    float: right;
+    color: rgb(97, 106, 107);
+    margin-bottom: -12px;
+    margin-right: 41px;
+}
+
+.box1 .info .box2 {
+    width: calc(100% /2);
+    float: left;
+
+}
+.box2 .infoo {
+   
+    /*border: 2px solid rgb(127, 129, 129);*/
+    padding: 23px;
+    position: relative;
+    margin: 0px 58px;
+    float: left;
+    height: 249px;}
+    .box1 .info .pre pre{
+
+        color: rgb(149, 165, 166);
+    
+        float: left;
+        margin-left: -418px;
+        text-align: left;
+
+
+    }
+    .box1 .info .pre2 pre{
+
+        color: rgb(149, 165, 166);
+    
+        float: left;
+        margin-left: -418px;
+        text-align: left;
+
+
+    }
+
+
+.box2 .infoo .pre2 .h4{
+    
+    color:rgb(231, 76, 60 ) ;
+    margin-right: 17px;
+    margin-top: 6px;
+
+
+}
+
+.products .buttons{
+
+    margin-left: 371px;
+    /* margin-bottom: -3px; */
+    margin-top: 3px;
+    float: right;
+   
+
+}
+
+.products .buttons button{
+    margin: 10px;
+}
+            
+        
+
+
+
+table{
+border: #4b4b4b 1px solid;
+background: rgb(230, 231, 231);
+
+}
+table th{
+
+    border: gray 1px solid;
+    color: red;
+    height: 41px;
+
+}
+table td{
+
+    border: #4b4b4b 1px solid;
+    height: 25px;
+
+}
+h1.text{
+    text-align: center;
+}
+#bage2{
+    background: url('../img/h.jpg');
+    height: 866px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*<div class="container">
+
+
+            <div class="products">
+
+
+                <div class="box1">
+
+                    <div class="info">
+
+                        <h3>OUR STORES</h3>
+                        <br />
+
+                        <pre>
+                    1401 south Grand Avenu
+                    Los Anglous,CA 90015
+                <h5>(213)741-2411</h5>
+
+                    100 FAIRVIEW DRIVE
+                    FRINKLINE ,VA23851
+                   <h5> (451)854-2411</h5>
+                   <img src="img/i.png" >
+                    </pre>
+                        
+
+                </div>
+
+                <div class="box1">
+
+                        <div class="info">
+    
+                            <h3>OUR STORES</h3>
+                            <br />
+    
+                            <pre>
+                        1401 south Grand Avenu
+                        Los Anglous,CA 90015
+                    <h5>(213)741-2411</h5>
+    
+                        100 FAIRVIEW DRIVE
+                        FRINKLINE ,VA23851
+                       <h5> (451)854-2411</h5>
+                       <img src="img/i.png" >
+                        </pre>
+                            
+    
+                    </div>
+                    <div class="box1">
+
+                            <div class="info">
+        
+                                <h3>OUR STORES</h3>
+                                <br />
+        
+                                <pre>
+                            1401 south Grand Avenu
+                            Los Anglous,CA 90015
+                        <h5>(213)741-2411</h5>
+        
+                            100 FAIRVIEW DRIVE
+                            FRINKLINE ,VA23851
+                           <h5> (451)854-2411</h5>
+                           <img src="img/i.png" >
+                            </pre>
+                                
+        
+                        </div>
+                     </div>   
+                </div>
+            </div>
+        </div>
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* body {
+    background: red;
+    height: 8000px;
+}
+.clearfix {
+    clear: both;
+}
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+#header #navbar {
+    background: #fff;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 2;
+}
+
+#navbar img {
+    height: 60px;
+    float: left;
+}
+#navbar ul {
+    float: left;
+    list-style: none;
+}
+#navbar ul li {
+    float: left;
+}
+#navbar ul li a {
+    padding: 10px;
+    color: #bebebe;
+    line-height: 30px;
+    text-decoration: none;
+    text-transform: capitalize;
+    
+}
+#navbar ul li a:hover {
+    color: green;
+    transition: 0.2s;
+ }
+#navbar button {
+    float: right;
+    background: #fff;
+    border: 2px solid #bebebe;
+    border-radius: 15px;
+    color: #bebebe;
+    margin-top: 15px;
+}
+
+/* banner */
+/*
+#banner {
+    background-image: url('../img/bg.jpg');
+    height: 500px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin-top: 61px;
+    position: relative;
+}
+
+#banner .info {
+    position: absolute;
+    bottom: 150px;
+}
+
+#banner .info h1 {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 60px;
+    font-family: sans-serif;
+    margin-bottom: 10px;
+}
+#banner .info p {
+    color: #fff;
+    font-size: 26px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    margin-top: 0;
+}
+#banner .info button {}
+
+.box1 {
+    width: 250px;
+    height: 250px;
+    padding: 10px;
+    background: blue;
+}
+
+.box2 {
+    width: 250px;
+    height: 250px;
+    margin: 10px;
+    background: green;
+} 
+
+*/
